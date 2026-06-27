@@ -1,52 +1,51 @@
-# The covid-19 situation in 2020
+# Hao Zhang
 
-_zhang hao; hzhang44@uw.edu_
+University of Washington graduate in Geography: Data Science, with minors in Data Science and Applied Mathematics. I am interested in data analyst, geospatial data analyst, GIS developer, and data visualization roles.
 
-_Autumn 2022 Oct. 10th_
+I work across data analysis, GIS, and interactive visualization: Python, R, SQL, GeoPandas, PostgreSQL/PostGIS, QGIS, ArcGIS Online, Leaflet, GeoJSON, Shiny, Plotly, React, and data storytelling.
 
-## introduction 
-We all know the pandemic of the covid-19 caused so many people to die. It is very important to know and stop the virus from transporting. So I want to know about how the virus transporting in the world. 
-The first step in finding the background and history of the covid-19. We can check the virus is from the end of 2019, and it is growing in 2020. 
-The next step is searching the news in 2020. There are so many data visualizations like charts in the news. 
-Finally, I find out the most meaningful data visualizations for me. This is a world map to show us different religions pandemic. 
-![Map-21-](https://user-images.githubusercontent.com/115127935/195003474-e1364cb5-88bd-4703-8650-7c00cf763b7a.jpg)
-(https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1251/https://blog.gramener.com/wp-content/uploads/2020/04/Map-21-.jpg)
+## Focus Areas
 
-## description
-In the [data visualization](https://blog.gramener.com/visualizing-covid-19-spread-on-choropleth-map/), we can see some virus designs which are the symbol of the coronavirus. There is a world map to show the order of severity of different regions in the world. 
-For example, most countries are red, which means these countries already appeared the cases of covid-19. The deeper red means more population of people got the covid-19. 
-So, we can see the United States and China are the reddest countries on the map. It means these two countries have the most people who are sick during the pandemic in 2020. 
+- Data analysis and visualization: R, Python, SQL, pandas, tidyverse, ggplot2, Plotly, Tableau, Vega-Lite, Observable
+- Geospatial analysis: GeoPandas, QGIS, ArcGIS Online, PostGIS, Leaflet, GeoJSON, choropleths, raster/vector workflows
+- Machine learning and statistics: regression, classification, decision trees, clustering, neural networks, hypothesis testing, estimation
+- Web and dashboard development: R Shiny, React, React Router, API integration, interactive maps and dashboards
 
-- **Who**: 
-The author is Malay Nilabh, he created the visulization map 
+## Featured Projects
 
-- **Date**: 
-28/04/2020
+### Interactive CO2 Emissions Dashboard
 
-- **Stakeholders**: 
-the audience can be many people, like the public and government.
-The public can know where can keep them safe and far away the covid-19. People know more about the pademic situations in other countries.
-The government can make the plan or policy to keep people be safe. 
-They both can be impacted directly by this data visualization.
+Built an R Shiny dashboard using Our World in Data CO2 data to explore country-level emissions trends over time. The app uses tidyverse data processing, ggplot2/Plotly visualizations, and interactive inputs for selecting countries, variables, and display options.
 
-- **Interests**: 
-The visualization can make people understand the data easier. The author collect the data and fill them in the visualization.
-It means the author help us to clear up the mess data to be a visualization that we can see directly
+Tech: R, Shiny, dplyr, tidyr, ggplot2, Plotly
 
-- **Key facts**: 
-we can learn the pandemic situations in different regions, and know how the severity level of the different countries.
-It helps people make the decisions to prevent getting the virus, and make them be sicked. 
+### GIS Database and Web Mapping Portfolio
 
-## Data Feminism: What I Learned?
+Designed and queried spatial databases with PostgreSQL/PostGIS, including relational database design, geometry creation, shapefile import/export, QGIS connections, and spatial query workflows. Built interactive web maps using Leaflet and GeoJSON and explored PostGIS-to-web map pipelines.
 
-***The definition of data deminism is that***, 
-> a way of thinking about data, both therir uses and their limits, that is informed by direct experience, by a commitment to action, and by intersectional feminist thougt.
+Tech: SQL, PostgreSQL, PostGIS, QGIS, Leaflet, GeoJSON
 
-(I don't have the page number, but it is in the last paragraph of the sub-title;"What Is Data Feminism" in the introdution part of the book)
-So, let me say what I learned in Data Feminism. I would say that technology changes the human community. 
-The situation in the last century in the United States, people are trying their best to make a balance equal between males and females. 
-But it is not an easy thing to see all the unequal events when they are happening. 
-The solution is that the females who received the highest education have an ideal. They use the computer to stop this kind of thing appeared. 
-They give the data to the computer and let the computer calculate and fix the unequal. 
-This event tells me, we can use what we learn to help the community what we are living. 😀
+### Geospatial Data Management and Analysis
 
+Worked with geospatial data in Jupyter and Python, including GeoPandas workflows, choropleth mapping, overlays, raster data, NDVI, bike-share analysis, and dashboard-style crime mapping.
+
+Tech: Python, Jupyter, GeoPandas, raster/vector GIS, spatial visualization
+
+### React Music Search App
+
+Built a React single-page application that queries the iTunes Search API, displays album search results, routes between album and track views, and handles loading and error states.
+
+Tech: React, React Router, JavaScript, fetch API, Bootstrap, Jest
+
+## Relevant Coursework
+
+- Machine Learning: ridge/LASSO regression, classification, decision trees, k-means, topic modeling, neural networks, recommender systems, fairness and bias
+- Database Systems: SQL, schema design, data modeling, query languages, transactions, database applications
+- Data Visualization: visual design, statistical graphics, Tableau, P5.js, Observable, Vega-Lite, maps, final presentations
+- GIS and Spatial Analysis: QGIS, ArcGIS Online, geodatabase topology, spatial classification, election data, crime hot spots, transportation and socioeconomic analysis
+- Applied Statistics and Scientific Computing: R statistical inference, R Markdown, Python numerical methods, ODEs, SVD, matrix methods
+
+## Contact
+
+- GitHub: [mileszhanghao](https://github.com/mileszhanghao)
+- Email: hzhang44@uw.edu
