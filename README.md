@@ -13,25 +13,25 @@ I work across data analysis, GIS, and interactive visualization: Python, R, SQL,
 
 ## Featured Projects
 
-### Interactive CO2 Emissions Dashboard
+### [Interactive CO2 Emissions Dashboard](https://github.com/mileszhanghao/r-shiny-co2-dashboard)
 
 Built an R Shiny dashboard using Our World in Data CO2 data to explore country-level emissions trends over time. The app uses tidyverse data processing, ggplot2/Plotly visualizations, and interactive inputs for selecting countries, variables, and display options.
 
 Tech: R, Shiny, dplyr, tidyr, ggplot2, Plotly
 
-### GIS Database and Web Mapping Portfolio
+### [GIS Database and Web Mapping Portfolio](https://github.com/mileszhanghao/postgis-leaflet-webmaps)
 
 Designed and queried spatial databases with PostgreSQL/PostGIS, including relational database design, geometry creation, shapefile import/export, QGIS connections, and spatial query workflows. Built interactive web maps using Leaflet and GeoJSON and explored PostGIS-to-web map pipelines.
 
 Tech: SQL, PostgreSQL, PostGIS, QGIS, Leaflet, GeoJSON
 
-### Geospatial Data Management and Analysis
+### [Geospatial Data Management and Analysis](https://github.com/mileszhanghao/geospatial-data-portfolio)
 
 Worked with geospatial data in Jupyter and Python, including GeoPandas workflows, choropleth mapping, overlays, raster data, NDVI, bike-share analysis, and dashboard-style crime mapping.
 
 Tech: Python, Jupyter, GeoPandas, raster/vector GIS, spatial visualization
 
-### React Music Search App
+### [React Music Search App](https://github.com/mileszhanghao/react-music-search)
 
 Built a React single-page application that queries the iTunes Search API, displays album search results, routes between album and track views, and handles loading and error states.
 
