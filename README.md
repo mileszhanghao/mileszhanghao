@@ -1,63 +1,61 @@
 # Hao Zhang
 
-University of Washington graduate in Geography: Data Science, with minors in Data Science and Applied Mathematics. I am interested in data analyst, geospatial data analyst, GIS developer, and data visualization roles.
+University of Washington graduate in Geography: Data Science, with minors in Data Science and Applied Mathematics. I build data products that connect backend systems, machine learning workflows, geospatial analytics, and interactive dashboards.
 
-I work across data analysis, GIS, databases, and interactive visualization: Python, R, SQL, Java/JDBC, GeoPandas, PostgreSQL/PostGIS, QGIS, ArcGIS Online, Leaflet, GeoJSON, Shiny, Plotly, React, scikit-learn, PyTorch, and data storytelling.
+My work is strongest at the intersection of analytics engineering and product thinking: turning messy public or operational data into queryable databases, predictive models, maps, dashboards, and user-facing applications.
 
-## Focus Areas
+## What I Build
 
-- Data analysis and visualization: R, Python, SQL, pandas, tidyverse, ggplot2, Plotly, Tableau, Vega-Lite, Observable
-- Data science and machine learning: scikit-learn pipelines, classification, ROC/AUC evaluation, PyTorch model experiments
-- CS/database systems: SQL, schema design, Java, JDBC, prepared statements, command-line application logic
-- Geospatial analysis: GeoPandas, QGIS, ArcGIS Online, PostGIS, Leaflet, GeoJSON, choropleths, raster/vector workflows
-- Machine learning and statistics: regression, classification, decision trees, clustering, neural networks, hypothesis testing, estimation
-- Web and dashboard development: R Shiny, React, React Router, API integration, interactive maps and dashboards
+- Data and ML pipelines: Python, pandas, scikit-learn, PyTorch, model validation, ROC/AUC, feature engineering.
+- Backend and database systems: SQL, schema design, Java/JDBC, Microsoft SQL Server, PostgreSQL/PostGIS, prepared statements.
+- Geospatial analytics: GeoPandas, Shapely, PostGIS, Leaflet, GeoJSON, QGIS/ArcGIS Pro, public-sector spatial data.
+- Interactive products: React, React Router, API integration, R Shiny, Plotly, dashboard UX, map-based storytelling.
+- Decision support: environmental risk, urban analytics, climate data, public safety, mobility, education data, and data ethics.
 
-## Featured Projects
+## Featured Product-Style Projects
 
-### [CS Database Systems Portfolio](https://github.com/mileszhanghao/cs-database-systems-portfolio)
+### [Healthcare Appointment Scheduling Backend](https://github.com/mileszhanghao/cs-database-systems-portfolio)
 
-Cleaned portfolio of SQL, relational schema design, semi-structured query work, and a Java/JDBC vaccine scheduling application. The scheduler includes account creation, salted password hashing, caregiver availability, patient reservations, appointment cancellation, and SQL-backed data access.
+Java/JDBC scheduling system backed by Microsoft SQL Server. Includes patient and caregiver accounts, salted password hashing, availability management, vaccine inventory, appointment reservation/cancellation, and SQL-backed data access.
 
-Tech: SQL, Java, JDBC, Microsoft SQL Server, relational schema design
+Tech: Java, JDBC, SQL Server, relational schema design, authentication, transactional CRUD
 
 ### [Data Science, ML, and Visualization Portfolio](https://github.com/mileszhanghao/data-science-ml-visualization-portfolio)
 
-Portfolio-safe summaries and reports from data science coursework, including scikit-learn classification pipelines, ROC/AUC model comparison, PyTorch CIFAR-10 architecture experiments, and Vega-Lite visualization ethics work.
+Analytics portfolio covering learner certification prediction, CIFAR-10 image classification experiments, visual decision-making, and public wage/cost-of-living analysis. Focuses on model comparison, evaluation, and communicating uncertainty to non-technical users.
 
-Tech: Python, pandas, scikit-learn, PyTorch, Vega-Lite, Observable
+Tech: Python, pandas, scikit-learn, PyTorch, feature engineering, ROC/AUC, visualization design
 
-### [Interactive CO2 Emissions Dashboard](https://github.com/mileszhanghao/r-shiny-co2-dashboard)
+### [Geospatial Urban Analytics Portfolio](https://github.com/mileszhanghao/geospatial-data-portfolio)
 
-Built an R Shiny dashboard using Our World in Data CO2 data to explore country-level emissions trends over time. The app uses tidyverse data processing, ggplot2/Plotly visualizations, and interactive inputs for selecting countries, variables, and display options.
+Location-intelligence case studies for Seattle tree canopy equity, sea-level-rise exposure, U-District dining clusters, crime dashboard workflows, GeoPandas overlays, and public API ingestion.
+
+Tech: Python, GeoPandas, Shapely, Folium, QGIS/ArcGIS Pro, raster/vector GIS, civic open data
+
+### [PostGIS and Leaflet Web Mapping Stack](https://github.com/mileszhanghao/postgis-leaflet-webmaps)
+
+Spatial database and browser mapping work using PostGIS queries, distance analysis, centroids, containment predicates, GeoJSON, and Leaflet maps. Shows how database-side geospatial logic can become map-ready web output.
+
+Tech: PostgreSQL, PostGIS, SQL, QGIS, Leaflet, JavaScript, GeoJSON
+
+### [Climate Emissions Analytics Dashboard](https://github.com/mileszhanghao/r-shiny-co2-dashboard)
+
+Interactive dashboard using Our World in Data CO2 data to compare country-level emissions trends. Combines data preprocessing, metric selection, interactive filters, and Plotly charts for exploratory climate analysis.
 
 Tech: R, Shiny, dplyr, tidyr, ggplot2, Plotly
 
-### [GIS Database and Web Mapping Portfolio](https://github.com/mileszhanghao/postgis-leaflet-webmaps)
+### [React Music Search Product Prototype](https://github.com/mileszhanghao/react-music-search)
 
-Designed and queried spatial databases with PostgreSQL/PostGIS, including relational database design, geometry creation, shapefile import/export, QGIS connections, and spatial query workflows. Built interactive web maps using Leaflet and GeoJSON and explored PostGIS-to-web map pipelines.
+API-driven React app for album search and track previews. Demonstrates asynchronous API calls, routing, loading/error states, reusable components, and a lightweight consumer-search workflow.
 
-Tech: SQL, PostgreSQL, PostGIS, QGIS, Leaflet, GeoJSON
+Tech: React, JavaScript, React Router, fetch API, Bootstrap
 
-### [Geospatial Data Management and Analysis](https://github.com/mileszhanghao/geospatial-data-portfolio)
+## Domain Strengths
 
-Worked with geospatial data in Jupyter and Python, including GeoPandas workflows, choropleth mapping, overlays, raster data, NDVI, bike-share analysis, and dashboard-style crime mapping.
-
-Tech: Python, Jupyter, GeoPandas, raster/vector GIS, spatial visualization
-
-### [React Music Search App](https://github.com/mileszhanghao/react-music-search)
-
-Built a React single-page application that queries the iTunes Search API, displays album search results, routes between album and track views, and handles loading and error states.
-
-Tech: React, React Router, JavaScript, fetch API, Bootstrap, Jest
-
-## Relevant Coursework
-
-- Machine Learning: ridge/LASSO regression, classification, decision trees, k-means, topic modeling, neural networks, recommender systems, fairness and bias
-- Database Systems: SQL, schema design, data modeling, query languages, transactions, database applications
-- Data Visualization: visual design, statistical graphics, Tableau, P5.js, Observable, Vega-Lite, maps, final presentations
-- GIS and Spatial Analysis: QGIS, ArcGIS Online, geodatabase topology, spatial classification, election data, crime hot spots, transportation and socioeconomic analysis
-- Applied Statistics and Scientific Computing: R statistical inference, R Markdown, Python numerical methods, ODEs, SVD, matrix methods
+- Data analyst / analytics engineer: SQL, Python, dashboards, stakeholder-ready summaries.
+- Machine learning analyst: feature engineering, classification, model selection, evaluation.
+- Geospatial analyst / GIS developer: spatial joins, overlays, PostGIS, web maps, civic data products.
+- Software-oriented data work: Java/JDBC backend logic, React frontends, API-backed applications.
 
 ## Contact
 
