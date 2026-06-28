@@ -2,16 +2,30 @@
 
 University of Washington graduate in Geography: Data Science, with minors in Data Science and Applied Mathematics. I am interested in data analyst, geospatial data analyst, GIS developer, and data visualization roles.
 
-I work across data analysis, GIS, and interactive visualization: Python, R, SQL, GeoPandas, PostgreSQL/PostGIS, QGIS, ArcGIS Online, Leaflet, GeoJSON, Shiny, Plotly, React, and data storytelling.
+I work across data analysis, GIS, databases, and interactive visualization: Python, R, SQL, Java/JDBC, GeoPandas, PostgreSQL/PostGIS, QGIS, ArcGIS Online, Leaflet, GeoJSON, Shiny, Plotly, React, scikit-learn, PyTorch, and data storytelling.
 
 ## Focus Areas
 
 - Data analysis and visualization: R, Python, SQL, pandas, tidyverse, ggplot2, Plotly, Tableau, Vega-Lite, Observable
+- Data science and machine learning: scikit-learn pipelines, classification, ROC/AUC evaluation, PyTorch model experiments
+- CS/database systems: SQL, schema design, Java, JDBC, prepared statements, command-line application logic
 - Geospatial analysis: GeoPandas, QGIS, ArcGIS Online, PostGIS, Leaflet, GeoJSON, choropleths, raster/vector workflows
 - Machine learning and statistics: regression, classification, decision trees, clustering, neural networks, hypothesis testing, estimation
 - Web and dashboard development: R Shiny, React, React Router, API integration, interactive maps and dashboards
 
 ## Featured Projects
+
+### [CS Database Systems Portfolio](https://github.com/mileszhanghao/cs-database-systems-portfolio)
+
+Cleaned portfolio of SQL, relational schema design, semi-structured query work, and a Java/JDBC vaccine scheduling application. The scheduler includes account creation, salted password hashing, caregiver availability, patient reservations, appointment cancellation, and SQL-backed data access.
+
+Tech: SQL, Java, JDBC, Microsoft SQL Server, relational schema design
+
+### [Data Science, ML, and Visualization Portfolio](https://github.com/mileszhanghao/data-science-ml-visualization-portfolio)
+
+Portfolio-safe summaries and reports from data science coursework, including scikit-learn classification pipelines, ROC/AUC model comparison, PyTorch CIFAR-10 architecture experiments, and Vega-Lite visualization ethics work.
+
+Tech: Python, pandas, scikit-learn, PyTorch, Vega-Lite, Observable
 
 ### [Interactive CO2 Emissions Dashboard](https://github.com/mileszhanghao/r-shiny-co2-dashboard)
 
