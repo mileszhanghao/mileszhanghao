@@ -8,16 +8,16 @@ Recent University of Washington graduate — **B.A. Geography: Data Science (Jun
 
 ## Software projects
 
-These started as projects in LaiOffer's software engineering program (2025). In 2026 I rebuilt each one: I fixed the bugs and security problems I found in the original course code, and added tests and CI. Each README lists what changed and why.
+These started as projects in LaiOffer's software engineering program (2025). In 2026 I rebuilt and renamed each one: I fixed the bugs and security problems I found in the original course code, and added tests and CI. Each README lists what changed and why.
 
-**[onlineorder](https://github.com/mileszhanghao/onlineorder)** — food ordering web app · [**live demo**](https://mileszhanghao.github.io/onlineorder/)
+**[SiuYeh 宵夜](https://github.com/mileszhanghao/siuyeh)**: late-night food ordering for three made-up Seattle spots · [**live demo**](https://mileszhanghao.github.io/siuyeh/)
 Java 21, Spring Boot 3.5, PostgreSQL, Flyway, Spring Security, React + TypeScript. The add-to-cart race is fixed with an atomic upsert, and checkout records orders with `DELETE … RETURNING`. Testcontainers integration tests include a 20-thread concurrency test.
 
-**[agentai](https://github.com/mileszhanghao/agentai)** — ask questions about a PDF
-TypeScript, Node, OpenAI tool calling, Model Context Protocol, React. A RAG pipeline indexes each upload once. An agent loop chooses between document search and an MCP web-search server, and every answer cites its sources. An offline mode runs without API keys.
+**[Footnote](https://github.com/mileszhanghao/footnote)**: ask a PDF, and every answer comes with page footnotes · [**live demo**](https://mileszhanghao.github.io/footnote/)
+TypeScript, Node, OpenAI tool calling, Model Context Protocol, React. A RAG pipeline indexes each upload once, and an agent loop chooses between document search and an MCP web-search server. The demo runs the same retrieval code entirely in the browser.
 
-**[socialai](https://github.com/mileszhanghao/socialai)** — photo/video sharing with AI image generation
-Go, PostgreSQL full-text search, JWT, OpenAI Images, React. The rebuild fixes the course version's plain-text passwords, hard-coded JWT key, sign-up race and API key exposed in the browser.
+**[Drizzle](https://github.com/mileszhanghao/drizzle)**: photo sharing for a rainy city, with AI image generation · [**live demo**](https://mileszhanghao.github.io/drizzle/)
+Go, PostgreSQL full-text search, JWT, OpenAI Images, React. The rebuild fixes the course version's plain-text passwords, hard-coded JWT key, sign-up race, and API key exposed in the browser.
 
 ## Geospatial and data work (UW coursework)
 
