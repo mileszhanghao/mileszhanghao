@@ -1,48 +1,39 @@
 ### Hao (Miles) Zhang
 
-University of Washington graduate in Computer and Data Science, building AI-powered products and full-stack systems. I work at the intersection of applied AI (LLM agents, RAG, MCP), backend/cloud engineering, and data-driven analytics.
+Recent University of Washington graduate — **B.A. Geography: Data Science (June 2026)**, minors in **Applied Mathematics** and **Data Science**. I work across backend development, geospatial analysis and statistical modeling. English / Mandarin / Cantonese.
 
-**Experience:** Software Engineer Intern at Google (Cloud Platform, Arcus control plane team) and DataLynn (AI-driven online learning platform).
+📍 Redmond, WA · ✉️ hzhang44@uw.edu
 
-## What I Build
+---
 
-**AI agents and LLM applications.** RAG pipelines, hybrid retrieval combining static documents with live web search, standardized tool orchestration via the Model Context Protocol (MCP), multi-step generation pipelines using agent design patterns (LangChain, GPT-4/5, DALL-E 3).
+## Software projects
 
-**Cloud-native backend systems.** Containerized services on GCP (Cloud Run, Pub/Sub, Cloud Storage) and AWS (App Runner, EC2, S3, RDS), event-driven architecture with Kafka, distributed data processing with Spark, CI/CD automation.
+These started as projects in LaiOffer's software engineering program (2025). In 2026 I rebuilt each one: I fixed the bugs and security problems I found in the original course code, and added tests and CI. Each README lists what changed and why.
 
-**Full-stack and mobile products.** React/Spring Boot/Django web applications, native Android apps in Kotlin with Jetpack Compose and MVVM, real-time features (websockets, OAuth, payments).
+**[onlineorder](https://github.com/mileszhanghao/onlineorder)** — food ordering web app · [**live demo**](https://mileszhanghao.github.io/onlineorder/)
+Java 21, Spring Boot 3.5, PostgreSQL, Flyway, Spring Security, React + TypeScript. The add-to-cart race is fixed with an atomic upsert, and checkout records orders with `DELETE … RETURNING`. Testcontainers integration tests include a 20-thread concurrency test.
 
-**Data and ML pipelines.** Python, pandas, scikit-learn, PyTorch, model validation, ROC/AUC, feature engineering.
+**[agentai](https://github.com/mileszhanghao/agentai)** — ask questions about a PDF
+TypeScript, Node, OpenAI tool calling, Model Context Protocol, React. A RAG pipeline indexes each upload once. An agent loop chooses between document search and an MCP web-search server, and every answer cites its sources. An offline mode runs without API keys.
 
-**Geospatial analytics.** GeoPandas, Shapely, PostGIS, Leaflet, GeoJSON, QGIS/ArcGIS Pro, public-sector spatial data.
+**[socialai](https://github.com/mileszhanghao/socialai)** — photo/video sharing with AI image generation
+Go, PostgreSQL full-text search, JWT, OpenAI Images, React. The rebuild fixes the course version's plain-text passwords, hard-coded JWT key, sign-up race and API key exposed in the browser.
 
-## Featured Repositories
+## Geospatial and data work (UW coursework)
 
-**[ai-agent-fullstack-portfolio](https://github.com/mileszhanghao/ai-agent-fullstack-portfolio)** RAG plus MCP document agent, generative-AI social platform, cloud-native food-ordering system, and an Android music app.
+**Washington State forest disturbance, 2004–2024** — spatial analysis across 271 ecoregions and 36 counties; annual disturbed area grew from about 17 km² to about 128 km² over the period.
+**Uneven Shade: Seattle tree-canopy equity, 2016–2021** — mapped census-tract canopy change against Environmental Justice Priority Areas using Seattle Open Data.
+→ both in [geospatial-data-portfolio](https://github.com/mileszhanghao/geospatial-data-portfolio)
 
-**[cs-database-systems-portfolio](https://github.com/mileszhanghao/cs-database-systems-portfolio)** Java/JDBC backend systems, distributed SQL processing on Spark/Azure.
+**Douban Chinese film ratings (AMATH 383)** — regression model with Lasso feature selection.
 
-**[data-science-ml-visualization-portfolio](https://github.com/mileszhanghao/data-science-ml-visualization-portfolio)** model comparison, CIFAR-10 experiments, visualization design.
+## Community
 
-**[geospatial-data-portfolio](https://github.com/mileszhanghao/geospatial-data-portfolio)** Seattle urban analytics, environmental equity, spatial data pipelines.
+**[christians-in-seattle-uw](https://github.com/mileszhanghao/christians-in-seattle-uw)** — bilingual (English/Chinese) website for a UW student group, live at [cisuw.com](https://cisuw.com).
 
-**[postgis-leaflet-webmaps](https://github.com/mileszhanghao/postgis-leaflet-webmaps)** spatial databases and interactive web mapping.
+---
 
-**[r-shiny-co2-dashboard](https://github.com/mileszhanghao/r-shiny-co2-dashboard)** interactive climate-data dashboard.
-
-**[react-music-search](https://github.com/mileszhanghao/react-music-search)** API-driven React product prototype.
-
-## Domain Strengths
-
-AI/LLM engineer: agent design, RAG, MCP, prompt orchestration, multimodal generation.
-
-Full-stack/backend engineer: React, Spring Boot, Django, distributed systems, cloud deployment.
-
-Data analyst / analytics engineer: SQL, Python, dashboards, stakeholder-ready summaries.
-
-Geospatial analyst / GIS developer: spatial joins, overlays, PostGIS, web maps, civic data products.
-
-## Contact
-
-GitHub: mileszhanghao
-Email: hzhang44@uw.edu
+**Languages:** Java · TypeScript/JavaScript · Go · Python · R · SQL
+**Backend:** Spring Boot · Node/Express · Go net/http · PostgreSQL · Docker · GitHub Actions
+**Frontend:** React · Vite · Ant Design
+**Data & GIS:** ArcGIS Pro · QGIS · R Shiny
