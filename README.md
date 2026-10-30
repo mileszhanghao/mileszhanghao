@@ -1,4 +1,4 @@
-### Hao (Miles) Zhang
+### Miles Zhang
 
 Recent University of Washington graduate — **B.A. Geography: Data Science (June 2026)**, minors in **Applied Mathematics** and **Data Science**. I build data pipelines, GIS analyses and backend services, and I like projects where the data is messy and the answer has to hold up. English / Mandarin / Cantonese.
 
