@@ -15,7 +15,7 @@ Every project has a live demo, tests that run on every push, and a README that e
 | Project | What it is | Stack | Demo |
 |---|---|---|---|
 | [Shadelines](https://github.com/mileszhanghao/shadelines) | Seattle's 1936 redlining map vs. today's tree canopy | Python · GeoPandas · MapLibre | [map](https://mileszhanghao.github.io/shadelines/) |
-| [Fenders](https://github.com/mileszhanghao/fenders) | Daily pipeline: bike counters + weather | Python · dbt · DuckDB · Actions | [dashboard](https://mileszhanghao.github.io/fenders/) |
+| [Fenders](https://github.com/mileszhanghao/fenders) | Daily pipeline: bike counters + weather | Python · dbt · DuckDB · Actions · Tableau | [dashboard](https://mileszhanghao.github.io/fenders/) · [Tableau](https://public.tableau.com/app/profile/hao.zhang4334/viz/FenderswhoridesintheSeattlerain/FenderswhoridesintheSeattlerain) |
 | [SiuYeh 宵夜](https://github.com/mileszhanghao/siuyeh) | Food ordering | Java · Spring Boot · PostgreSQL | [demo](https://mileszhanghao.github.io/siuyeh/) |
 | [Porchlight](https://github.com/mileszhanghao/porchlight) | Condo community app | TypeScript · NestJS · PostgreSQL | [demo](https://mileszhanghao.github.io/porchlight/) |
 | [Footnote](https://github.com/mileszhanghao/footnote) | PDF Q&A with cited pages | TypeScript · RAG · MCP | [demo](https://mileszhanghao.github.io/footnote/) |
@@ -28,7 +28,7 @@ Every project has a live demo, tests that run on every push, and a README that e
 **[Shadelines](https://github.com/mileszhanghao/shadelines)**: Seattle's 1936 redlining map against today's tree canopy and census data · [**interactive map**](https://mileszhanghao.github.io/shadelines/)
 Python, GeoPandas, MapLibre GL. Areas graded A in 1936 have 39% tree canopy today, against 27% in C and D areas; the share of residents who are people of color goes from 22% to 52%. Canopy is split onto the 1936 boundaries by area, and people through 2020 census blocks (dasymetric weighting). The citywide result matches the city's own figure (28.2% vs 28.1%).
 
-**[Fenders](https://github.com/mileszhanghao/fenders)**: does rain keep Seattle off its bikes? A daily data pipeline · [**dashboard**](https://mileszhanghao.github.io/fenders/)
+**[Fenders](https://github.com/mileszhanghao/fenders)**: does rain keep Seattle off its bikes? A daily data pipeline · [**dashboard**](https://mileszhanghao.github.io/fenders/) · [**Tableau**](https://public.tableau.com/app/profile/hao.zhang4334/viz/FenderswhoridesintheSeattlerain/FenderswhoridesintheSeattlerain)
 Python, Parquet, DuckDB, dbt, GitHub Actions. Every morning it pulls six city bike counters and hourly weather, models them in dbt, and publishes only if 21 data tests pass. On the first full load the tests caught duplicated months, conflicting rows and sensor error values. Answer: rain cuts riding by about half, weekend riders far more than commuters.
 
 ### Backend and full stack
